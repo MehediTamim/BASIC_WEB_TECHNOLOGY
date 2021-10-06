@@ -58,7 +58,7 @@
 			echo "<br>";
 			
         }
-		else if ($Religion=="Islam" or $Religion=="Hindu" or $Religion=="Christianity" or $Religion=="Others")
+		elseif ($Religion=="Islam" or $Religion=="Hindu" or $Religion=="Christianity" or $Religion=="Others")
 		{
 			echo "<th>" .$_POST['Religion']. "</th>";
 			echo "<br>";
